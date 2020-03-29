@@ -1,5 +1,7 @@
 # fluttersushiflr
 
+https://rive.app/a/tenja1918/files/flare/test-ear
+
 A new Flutter application.
 
 ## Getting Started
