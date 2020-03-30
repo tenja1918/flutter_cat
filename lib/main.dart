@@ -37,8 +37,10 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: Colors.grey,
       appBar: AppBar(title: Text(widget.title)),
       body: GestureDetector(
-        onTap: () => _controller.play('cat_ear'),
-        onDoubleTap: () => _controller.play('rotate_cat_ear'),
+        //onTap: () => _controller.play('cat_ear'),
+        //onDoubleTap: () => _controller.play('rotate_cat_ear'),
+          onTap: () => _controller.play('2 - Hi'),
+          onDoubleTap: () => _controller.play('11 - Fire Up'),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -47,7 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
               Expanded(
                 child: FlareActor(
                   //'assets/Sushi.flr',
-                  'assets/test_ear.flr',
+                  //'assets/test_ear.flr',
+                  'assets/dost_anim_girl.flr',
                   alignment: Alignment.center,
                   fit: BoxFit.contain,
                   //animation: _animationName,
